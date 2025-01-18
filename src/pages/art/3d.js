@@ -1,7 +1,7 @@
 import * as React from "react"
-import Layout from '../components/layout'
+import Layout from '../../components/layout'
 
-const IndexPage = () => {
+const ThreeDeePage = () => {
   return (
     <Layout>
       <p>Freelance Developer</p>
@@ -10,6 +10,6 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default ThreeDeePage
 
 export const Head = () => <title>Sean Blankenship</title>

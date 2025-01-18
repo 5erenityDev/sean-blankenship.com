@@ -6,5 +6,9 @@ module.exports = {
     title: `Sean Blankenship`,
     siteUrl: `https://www.sean-blankenship.com`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
+  ],
 }
