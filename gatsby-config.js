@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `sean-blankenship.com`,
-    siteUrl: `https://www.yourdomain.tld`,
+    title: `Sean Blankenship`,
+    siteUrl: `https://www.sean-blankenship.com`,
   },
   plugins: [],
 }
