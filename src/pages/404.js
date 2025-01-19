@@ -28,7 +28,7 @@ const NotFoundPage = () => {
     <main style={pageStyles}>
       <h1 style={headingStyles}>Page not found</h1>
       <p style={paragraphStyles}>
-        Sorry 😔, we couldn’t find what you were looking for.
+        The page you are looking for does not exist, if you have reached this page as a result of an error, please report it to seanblankenship@serenity-dev.com
         <br />
         {process.env.NODE_ENV === "development" ? (
           <>
@@ -38,7 +38,7 @@ const NotFoundPage = () => {
           </>
         ) : null}
         <br />
-        <Link to="/">Go home</Link>.
+        <Link to="/">Otherwise, Click here to go back to the home page</Link>.
       </p>
     </main>
   )

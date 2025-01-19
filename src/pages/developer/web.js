@@ -1,11 +1,10 @@
 import * as React from "react"
-import Layout from '../components/layout'
+import Layout from '../../components/layout'
 
 const WebPage = () => {
   return (
     <Layout>
-      <p>Freelance Developer</p>
-      <p>Site (UNDER DEVELOPMENT) built with GatsbyJS and deployed with Netlify</p>
+      <h1>Web Developer</h1>
     </Layout>
   )
 }

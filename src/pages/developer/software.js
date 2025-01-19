@@ -1,15 +1,14 @@
 import * as React from "react"
 import Layout from '../../components/layout'
 
-const TwoDeePage = () => {
+const SoftwarePage = () => {
   return (
     <Layout>
-      <p>Freelance Developer</p>
-      <p>Site (UNDER DEVELOPMENT) built with GatsbyJS and deployed with Netlify</p>
+      <h1>Software Developer</h1>
     </Layout>
   )
 }
 
-export default TwoDeePage
+export default SoftwarePage
 
 export const Head = () => <title>Sean Blankenship</title>
